@@ -14,7 +14,7 @@ client = Client(account_sid, auth_token)
 # Fetch call info
 call = client.calls(call_sid).fetch()
 
-print("From:", call.from_)
+print("From:", call._from)
 print("To:", call.to)
 print("Status:", call.status)
 print("Start Time:", call.start_time)
