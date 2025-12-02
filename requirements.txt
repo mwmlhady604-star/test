@@ -1,2 +1,10 @@
-twilio
+fastapi
+openai
+requests
+websockets
 uvicorn
+psycopg2-binary
+sqlalchemy
+python-dotenv
+pydantic-settings
+twilio
